@@ -2,9 +2,9 @@
 Data science portfolio
 # Project 1: Default Payment Credit Card Predictor:Project Overview
 * Created a model that predicts who are most likely to default based on the features of dataset
-* Dataset is from UCI repositories, named 'Default Payments of Credit Card Clients in Taiwan'.
-* Optimised Random Forest Regressor and Decision Trees using GridsearchCv to reach the best model
-*
+* Dataset is from UCI repositories, dataset is named 'Default Payments of Credit Card Clients in Taiwan'.
+* Optimised Random Forest Regressor and Decision Trees using GridsearchCv to reach the best model.
+
 
 
 
