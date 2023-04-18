@@ -1,9 +1,15 @@
+**Natural Language Processing Project**:
+In this NLP project, I attempted to classify Yelp reviews into 1-star or 5-star categories based on the text content in the reviews. We used the Yelp Review Dataset from Kaggle, where each observation in the dataset is a review of a particular business by a particular user. I utilized pipeline methods for more complex tasks. The "stars" column represents the number of stars (1 through 5) assigned by the reviewer to the business, while the "cool," "useful," and "funny" columns are ratings of the review itself, not a rating of the business. 
+
+**Decision Trees and Random Forest project**:
+In this completed LendingClub.com Data Analysis project, publicly available data from LendingClub.com was explored to predict whether or not a borrower would pay back their loan in full. LendingClub connects borrowers with investors, and the goal was to create a model that would help investors identify borrowers with a high probability of paying them back. The lending data used in the project was from 2007-2010 and contained various features related to the borrower's credit history and financial situation.The data was classified based on whether the borrower paid back their loan in full or not using both decision trees and random forest classifier.
+
+**K Nearest Neighbor Project**:
+in this project, a machine learning model has been built using the KNN algorithm to predict a class for a new data point based on the features of a given classified data set. The project was provided with the data and target classes but with hidden feature column names. The KNN algorithm was used to build a model that could predict the class of a new data point by finding the K closest data points in the feature space and taking a majority vote among their classes
+
 **Ecommerce- Linear Regression**:
 
 This Linear Regression Project involves analyzing customer data for an Ecommerce company based in New York City that sells clothing online and offers in-store style and clothing advice sessions. The objective of the project is to determine whether the company should focus their efforts on their mobile app experience or their website
-
-
-
 
 **Finance Project**: 
 
