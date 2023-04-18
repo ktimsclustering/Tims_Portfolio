@@ -8,7 +8,7 @@ In this completed LendingClub.com Data Analysis project, publicly available data
 
 **K Nearest Neighbor Project**:
 
-in this project, a machine learning model has been built using the KNN algorithm to predict a class for a new data point based on the features of a given classified data set. The project was provided with the data and target classes but with hidden feature column names. The KNN algorithm was used to build a model that could predict the class of a new data point by finding the K closest data points in the feature space and taking a majority vote among their classes
+In this project, a machine learning model has been built using the KNN algorithm to predict a class for a new data point based on the features of a given classified data set. The project was provided with the data and target classes but with hidden feature column names. The KNN algorithm was used to build a model that could predict the class of a new data point by finding the K closest data points in the feature space and taking a majority vote among their classes
 
 **Ecommerce- Linear Regression**:
 
