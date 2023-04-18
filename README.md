@@ -21,3 +21,8 @@ This data project involves an exploratory analysis of stock prices, with a focus
 **911 Calls Project**:
 
 The 911 Calls Capstone Project is an exploratory data analysis (EDA) project that uses a dataset containing information about emergency calls made to the 911 service. The project involves analyzing the data to uncover insights and trends related to the calls made, such as the time of day, day of the week, and type of emergency. Seaborn, a powerful plotting library, is employed to create visualizations that help to identify patterns and relationships within the data.
+
+**Multiclass classification of COVID-19 X-ray
+dataset using CNN**: 
+
+This code initializes a Convolutional Neural Network (CNN) model in Python using the Keras API with TensorFlow backend. The model consists of several layers, including Conv2D, MaxPooling2D, and Dense layers. The first layer is a convolutional layer with 32 filters, 3x3 kernel size, and ReLU activation function. Then, a max pooling layer with 2x2 pool size is added. Afterward, two additional convolutional and max pooling layers are added with 64 and 128 filters, respectively. The output of the convolutional layers is flattened, followed by a fully connected layer with 128 units and ReLU activation function. Finally, the output layer is added with softmax activation function for multiclass classification. The model is then compiled with categorical cross-entropy loss function and Adam optimizer.
