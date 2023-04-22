@@ -1,6 +1,6 @@
 **Natural Language Processing Project**:
 
-In this NLP project, I attempted to classify Yelp reviews into 1-star or 5-star categories based on the text content in the reviews. We used the Yelp Review Dataset from Kaggle, where each observation in the dataset is a review of a particular business by a particular user. I utilized pipeline methods for more complex tasks. The "stars" column represents the number of stars (1 through 5) assigned by the reviewer to the business, while the "cool," "useful," and "funny" columns are ratings of the review itself, not a rating of the business. 
+In this NLP project, I attempted to classify Yelp reviews into 1-star or 5-star categories based on the text content in the reviews. I used the Yelp Review Dataset from Kaggle, where each observation in the dataset is a review of a particular business by a particular user. I utilized pipeline methods for more complex tasks. The "stars" column represents the number of stars (1 through 5) assigned by the reviewer to the business, while the "cool," "useful," and "funny" columns are ratings of the review itself, not a rating of the business. 
 
 **Decision Trees and Random Forest project**:
 
