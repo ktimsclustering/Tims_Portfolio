@@ -1,28 +1,71 @@
-**Natural Language Processing Project**:
+# Data Science Portfolio — Mark Timothy Morillo
 
-In this NLP project, I attempted to classify Yelp reviews into 1-star or 5-star categories based on the text content in the reviews. I used the Yelp Review Dataset from Kaggle, where each observation in the dataset is a review of a particular business by a particular user. I utilized pipeline methods for more complex tasks. The "stars" column represents the number of stars (1 through 5) assigned by the reviewer to the business, while the "cool," "useful," and "funny" columns are ratings of the review itself, not a rating of the business. 
+A collection of data science projects covering exploratory data analysis, regression, classification, natural language processing, and deep learning, built in Python with pandas, scikit-learn, and TensorFlow/Keras.
 
-**Decision Trees and Random Forest project**:
+## Projects
 
-In this completed LendingClub.com Data Analysis project, publicly available data from LendingClub.com was explored to predict whether or not a borrower would pay back their loan in full. LendingClub connects borrowers with investors, and the goal was to create a model that would help investors identify borrowers with a high probability of paying them back. The lending data used in the project was from 2007-2010 and contained various features related to the borrower's credit history and financial situation.The data was classified based on whether the borrower paid back their loan in full or not using both decision trees and random forest classifier.
+| # | Area | Project | Techniques | File |
+|---|------|---------|------------|------|
+| 1 | Exploratory Data Analysis | 911 Calls | Time-based trends, call-type breakdowns, Seaborn visualizations | [911-calls-eda.ipynb](01-exploratory-data-analysis/911-calls-eda.ipynb) |
+| 2 | Exploratory Data Analysis | Bank Stocks & the 2008 Financial Crisis | Stock-price EDA, returns, interactive Plotly charts | [bank-stocks-financial-crisis-eda.ipynb](01-exploratory-data-analysis/bank-stocks-financial-crisis-eda.ipynb) |
+| 3 | Regression | Ecommerce Customer Spending | Linear regression, coefficient interpretation | [ecommerce-linear-regression.ipynb](02-regression/ecommerce-linear-regression.ipynb) |
+| 4 | Classification | K Nearest Neighbors | Feature scaling, KNN, choosing K with the elbow method | [k-nearest-neighbors.ipynb](03-classification/k-nearest-neighbors.ipynb) |
+| 5 | Classification | LendingClub Loan Repayment | Decision tree, random forest | [lendingclub-decision-trees-random-forest.ipynb](03-classification/lendingclub-decision-trees-random-forest.ipynb) |
+| 6 | Natural Language Processing | Yelp Review Classification | Text vectorization, Naive Bayes, scikit-learn pipelines | [yelp-review-classification.ipynb](04-natural-language-processing/yelp-review-classification.ipynb) |
+| 7 | Deep Learning | COVID-19 Chest X-ray Classification | Convolutional neural network (Keras), image augmentation | [covid19-xray-cnn.py](05-deep-learning/covid19-xray-cnn.py) |
 
-**K Nearest Neighbor Project**:
+## Project Summaries
 
-In this project, a machine learning model has been built using the KNN algorithm to predict a class for a new data point based on the features of a given classified data set. The project was provided with the data and target classes but with hidden feature column names. The KNN algorithm was used to build a model that could predict the class of a new data point by finding the K closest data points in the feature space and taking a majority vote among their classes
+### 1. 911 Calls — Exploratory Data Analysis
+An exploratory analysis of a dataset of emergency calls made to the 911 service. It looks at when calls happen (time of day, day of week) and what types of emergencies they are, using Seaborn visualizations to surface patterns.
 
-**Ecommerce- Linear Regression**:
+### 2. Bank Stocks & the 2008 Financial Crisis
+An exploratory analysis of bank stock prices from the 2007–2008 financial crisis through early 2016. It uses pandas and visualization to look at trends and at how the crisis affected bank stocks. This is practice in data analysis, not financial advice.
 
-This Linear Regression Project involves analyzing customer data for an Ecommerce company based in New York City that sells clothing online and offers in-store style and clothing advice sessions. The objective of the project is to determine whether the company should focus their efforts on their mobile app experience or their website
+### 3. Ecommerce Customer Spending — Linear Regression
+Customer data from a New York City online clothing company that also offers in-store style sessions. A linear regression model helps decide whether the company should focus its effort on its mobile app or its website.
 
-**Finance Project**: 
+### 4. K Nearest Neighbors
+A KNN classifier trained on a dataset with hidden feature names. It predicts the class of a new data point by finding the K closest points in feature space and taking a majority vote.
 
-This data project involves an exploratory analysis of stock prices, with a focus on bank stocks and their performance during the financial crisis of 2007-2008, up until early 2016. The project is designed to provide practice in using visualization and pandas skills, and is not intended to be a comprehensive financial analysis or provide financial advice. By analyzing and visualizing the data, we aim to gain insights into the trends and patterns that emerged during this period, as well as the impact of the financial crisis on bank stocks. This project offers an opportunity to develop and refine data analysis skills, while also gaining a deeper understanding of the dynamics of the financial market.
+### 5. LendingClub Loan Repayment — Decision Trees & Random Forest
+Public LendingClub.com lending data from 2007–2010, used to predict whether a borrower will pay back their loan in full. A decision tree and a random forest classifier are compared, with the goal of helping investors identify reliable borrowers.
 
-**911 Calls Project**:
+### 6. Yelp Review Classification — NLP
+Classifies Yelp reviews from the Kaggle Yelp Review Dataset as 1-star or 5-star based on the review text, using scikit-learn pipelines. (The `cool`, `useful`, and `funny` columns rate the review itself, not the business.)
 
-The 911 Calls Capstone Project is an exploratory data analysis (EDA) project that uses a dataset containing information about emergency calls made to the 911 service. The project involves analyzing the data to uncover insights and trends related to the calls made, such as the time of day, day of the week, and type of emergency. Seaborn, a powerful plotting library, is employed to create visualizations that help to identify patterns and relationships within the data.
+### 7. COVID-19 Chest X-ray Classification — CNN
+A convolutional neural network built with the Keras API on TensorFlow for multiclass classification of chest X-ray images. It has three Conv2D + MaxPooling2D blocks (32, 64, and 128 filters), a 128-unit dense layer, and a softmax output, trained with categorical cross-entropy and the Adam optimizer. The training images are augmented with `ImageDataGenerator`.
 
-**Multiclass classification of COVID-19 X-ray
-dataset using CNN**: 
+## Repository Structure
 
-This code initializes a Convolutional Neural Network (CNN) model in Python using the Keras API with TensorFlow backend. The model consists of several layers, including Conv2D, MaxPooling2D, and Dense layers. The first layer is a convolutional layer with 32 filters, 3x3 kernel size, and ReLU activation function. Then, a max pooling layer with 2x2 pool size is added. Afterward, two additional convolutional and max pooling layers are added with 64 and 128 filters, respectively. The output of the convolutional layers is flattened, followed by a fully connected layer with 128 units and ReLU activation function. Finally, the output layer is added with softmax activation function for multiclass classification. The model is then compiled with categorical cross-entropy loss function and Adam optimizer.
+```
+.
+├── 01-exploratory-data-analysis/
+│   ├── 911-calls-eda.ipynb
+│   └── bank-stocks-financial-crisis-eda.ipynb
+├── 02-regression/
+│   └── ecommerce-linear-regression.ipynb
+├── 03-classification/
+│   ├── k-nearest-neighbors.ipynb
+│   └── lendingclub-decision-trees-random-forest.ipynb
+├── 04-natural-language-processing/
+│   └── yelp-review-classification.ipynb
+├── 05-deep-learning/
+│   └── covid19-xray-cnn.py
+├── requirements.txt
+└── README.md
+```
+
+## Running the Projects
+
+```bash
+pip install -r requirements.txt
+jupyter notebook
+```
+
+The datasets aren't included in this repository. Each notebook expects its data file (for example, a CSV from Kaggle) to be in the same folder as the notebook.
+
+## Tech Stack
+
+Python · pandas · NumPy · Matplotlib · Seaborn · Plotly · scikit-learn · TensorFlow / Keras · Jupyter

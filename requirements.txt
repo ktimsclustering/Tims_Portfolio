@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+cufflinks
+pandas-datareader
+scikit-learn
+tensorflow
+jupyter
